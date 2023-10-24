@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Tradutor</title>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+</head>
+<body>
+<div>
+        <button class="font"><img src="traduzir.png" alt="" class="imgs"> Texto</button>
+        <button class="font"><img src="imagem-do-google-drive.png" alt="" class="imgs"> Imagens</button>
+        <button class="font"><img src="arquivo-do-google-drive.png" alt="" class="imgs"> Documentos</button>
+        <button class="font"><img src="global.png" alt="" class="imgs"> Sites</button>
+</div>
+<nav class="nav">
+	<ul>
+		<li><a href="#">Detectar idioma</a>
+    <li><a href="#">Inglês</a>
+        <li><a href="#">Português</a>
+            <li><a href="#">Espanhol</a>
+		<li class="drop"><a href="#"><img src="seta-para-baixo.png" alt="" class="imgs"></a>
+			<ul class="dropdown">
+				<li><a href="#">Mudar</a></li>
+			</ul>
+		</li>
+    </ul>
+    <ul class="espaco">
+        <li><a href="#"><img src="setas-direcionais-esquerda-e-direita.png" alt="" class="imgs"></a>
+        <li><a href="#">Português</a>
+            <li><a href="#">Inglês</a>
+            <li><a href="#">Alemão</a>
+		<li class="drop1"><a href="#"><img src="seta-para-baixo.png" alt="" class="imgs"></a>
+			<ul class="dropdown1">
+				<li><a href="#">Mudar</a></li>
+			</ul>
+		</li>
+	</ul>
+</nav>
+
+<div>
+    <input type="text" class="texto escrita teclado">
+    <input type="text" class="texto resposta" placeholder="Tradução">
+</div>
+<footer>
+    <p class="main">
+    Enviar feedback
+    </p>
+</footer>
+<script src="js.js"></script>
+</body>
+</html>

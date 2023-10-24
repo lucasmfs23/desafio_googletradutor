@@ -1,0 +1,138 @@
+@import url(https://fonts.googleapis.com/css?family=Montserrat:300&subset=latin-ext);
+
+body {
+-moz-osx-font-smoothing:grayscale;
+-ms-flex-direction:column;
+box-direction:normal;
+box-orient:vertical;
+-webkit-font-smoothing:antialiased;
+color:#777;
+display:flex;
+flex-direction:column;
+font-family:Montserrat, sans-serif;
+font-size: 1em;
+font-weight:300;
+margin: 35px;
+min-height:100vh;
+}
+.font{
+    padding: 10px;
+    color: rgb(11, 91, 196);
+    background-color: white;
+    border: 1px solid rgb(192, 192, 192);
+    border-radius: 5px;
+    box-shadow:0 3px 10px rgba(0,0,0,.15);
+}
+.imgs{
+    width: 20px;
+    height: 20px;
+}
+.texto{
+    width: 600px;
+    height: 200px;
+    border-radius: 8px;
+    border: 1px solid rgb(192, 192, 192);
+}
+.espaco{
+    margin-left: 590px;   
+}
+.escrita{
+    background-image: url(comando-de-voz.png),url(teclado.png);
+    background-size: 20px 20px;
+    background-repeat: no-repeat;
+    background-position: bottom left, bottom right;
+}
+
+.resposta{
+    background:#f0f0f0;
+}
+input::placeholder{
+    font-size: large;
+}
+.nav {
+	margin-top: 30px;
+	max-width: 1800px;
+}
+
+.nav::after {
+	display: block;
+	content: '';
+	clear: both;
+}
+
+nav ul {
+	padding: 0;
+	margin: 0;
+	list-style: none;
+}
+
+nav ul li {
+	float: left;
+	position: relative;
+}
+
+nav ul li a {
+	display: block;
+	color: rgba(97, 97, 97, 0.9);
+	text-decoration: none;
+	padding: 7px;
+	border-top: 2px solid transparent;
+	border-bottom: 2px solid transparent;
+	transition: all .3s ease-in-out;
+}
+
+
+nav ul li a:focus {
+	text-decoration: underline;
+}
+
+nav ul li a:focus {
+	color: rgb(64, 46, 230);
+}
+
+nav ul li a:not(:only-child)::after {
+	padding-left: 4px;
+}
+
+nav ul li ul li {
+	min-width: 190px;
+}
+
+nav ul li ul li a {
+	background: transparent;
+	color: #555;
+	border-bottom: 1px solid #DDE0E7;
+}
+
+nav ul li ul li a:hover,
+nav ul li ul li a:focus {
+	background: #eee;
+	color: #111;
+}
+
+.dropdown {
+	display: none;
+	position: absolute;
+	background: #fff;
+}
+.dropdown1 {
+	display: none;
+	position: absolute;
+	background: #fff;
+}
+
+footer {
+color: #555;
+font-size:10px;
+margin-top:5em;
+text-align:center;
+}
+
+footer a {
+color:#008FEA;
+text-decoration:none;
+}
+.main{
+    margin-left: 90%;
+}
+
